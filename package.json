@@ -1,0 +1,57 @@
+{
+  "name": "functional-recipes",
+  "version": "1.0.0",
+  "description": "some recipes for functional programming",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "6to5-browserify": "^1.1.0",
+    "array-range": "^1.0.1",
+    "canvas-testbed": "^1.0.2",
+    "color-convert": "^0.5.2",
+    "color-luminance": "^2.1.0",
+    "color-style": "^1.0.0",
+    "dom-style": "0.0.3",
+    "getboundingbox": "^1.0.0",
+    "negate": "^1.0.0",
+    "plucker": "0.0.0",
+    "touch-position": "^1.0.2",
+    "underscore": "^1.7.0",
+    "xrange": "^1.0.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "colors-1": "beefy colors-1.js --open",
+    "colors-2": "beefy colors-2.js --open",
+    "colors-3": "beefy colors-3.js --open",
+    "colors-4": "beefy colors-4.js --open -- -t 6to5-browserify",
+    "frequency-1": "beefy frequency-1.js --open",
+    "frequency-2": "beefy frequency-2.js --open -- -t 6to5-browserify"
+  },
+  "keywords": [
+    "functional",
+    "cook",
+    "book",
+    "cookbook",
+    "recipes",
+    "examples",
+    "fp",
+    "programming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/functional-recipes.git"
+  },
+  "homepage": "https://github.com/mattdesl/functional-recipes",
+  "bugs": {
+    "url": "https://github.com/mattdesl/functional-recipes/issues"
+  }
+}
