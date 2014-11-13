@@ -10,6 +10,8 @@ cd functional-recipes
 npm install
 ```
 
+[Slides here](https://github.com/mattdesl/functional-recipes/blob/master/slides.md)
+
 Then run any of the demos like so: 
 
 ```sh
