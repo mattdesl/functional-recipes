@@ -1,12 +1,25 @@
 # functional-recipes
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+Some lessons for functional programming in JS.
 
-some recipes for functional programming
+Clone then install:
 
-## Usage
+```sh
+git clone https://github.com/mattdesl/functional-recipes.git
+cd functional-recipes
+npm install
+```
 
-[![NPM](https://nodei.co/npm/functional-recipes.png)](https://nodei.co/npm/functional-recipes/)
+Then run any of the demos like so: 
+
+```sh
+npm run colors-1
+npm run colors-2
+npm run colors-3
+npm run colors-4
+npm run frequency-1
+npm run frequency-2
+```
 
 ## License
 
