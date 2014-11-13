@@ -9,6 +9,7 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
+  "private": true,
   "dependencies": {
     "6to5-browserify": "^1.1.0",
     "array-range": "^1.0.1",
