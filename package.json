@@ -12,7 +12,6 @@
   "private": true,
   "dependencies": {
     "6to5-browserify": "^1.1.0",
-    "array-range": "^1.0.1",
     "canvas-testbed": "^1.0.2",
     "color-convert": "^0.5.2",
     "color-luminance": "^2.1.0",
@@ -22,10 +21,10 @@
     "negate": "^1.0.0",
     "plucker": "0.0.0",
     "touch-position": "^1.0.2",
-    "underscore": "^1.7.0",
-    "xrange": "^1.0.1"
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
+    "6to5": "^1.12.10",
     "beefy": "^2.1.1"
   },
   "scripts": {
@@ -34,8 +33,10 @@
     "colors-2": "beefy colors-2.js --open",
     "colors-3": "beefy colors-3.js --open",
     "colors-4": "beefy colors-4.js --open -- -t 6to5-browserify",
-    "frequency-1": "beefy frequency-1.js --open",
-    "frequency-2": "beefy frequency-2.js --open -- -t 6to5-browserify"
+    "frequency-1": "node frequency-1.js",
+    "frequency-2": "6to5-node frequency-2.js",
+    "frequency-1-browser": "beefy frequency-1.js --open",
+    "frequency-2-browser": "beefy frequency-2.js --open -- -t 6to5-browserify"
   },
   "keywords": [
     "functional",

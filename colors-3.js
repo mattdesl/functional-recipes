@@ -3,7 +3,7 @@
 // ------------------------------------------
 
 var luminance = require('color-luminance')
-var colors = require('./color-data')
+var colors = require('./lib/color-data')
 
 //manipulate the colors with some pipeline of effects
 function gradient(colors, threshold) {
@@ -50,4 +50,4 @@ if (bright(testColor))
     console.log("yep, it's bright.")
 
 var result = gradient(colors, dark)
-require('./render-colors')(result)
+require('./lib/render-colors')(result)

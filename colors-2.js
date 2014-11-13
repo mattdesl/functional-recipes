@@ -3,7 +3,7 @@
 // ------------------------------------------
 
 var luminance = require('color-luminance')
-var colors = require('./color-data')
+var colors = require('./lib/color-data')
 
 //manipulate the colors with some pipeline of effects
 function gradient(colors, low, high) {
@@ -27,7 +27,7 @@ function gradient(colors, low, high) {
 var result = gradient(colors, 0.2, 1.0)
 
 //our side effect (appending to DOM)
-require('./render-colors')(result)
+require('./lib/render-colors')(result)
 
 
 

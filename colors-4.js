@@ -3,7 +3,7 @@
 // ------------------------------------------
 
 var luminance = require('color-luminance')
-var colors = require('./color-data')
+var colors = require('./lib/color-data')
 var rgb2hsv = require('color-convert').rgb2hsv
 
 //manipulate the colors with some pipeline of effects
@@ -29,6 +29,6 @@ var saturated = saturation(sat => sat >= 50)
 var desaturated = require('negate')(saturated)
 
 var result = filtersort(colors, desaturated)
-require('./render-colors')(result)
+require('./lib/render-colors')(result)
 
 

@@ -3,7 +3,7 @@
 // ------------------------------------------
 
 var pluck = require('plucker')
-var text = require('./lipsum')
+var text = require('./lib/lipsum')
 
 //get sorted frequencies of words > 4 chars
 var longWords = words(text).filter(greaterThan(4))

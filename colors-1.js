@@ -3,8 +3,8 @@
 // ------------------------------------------
 
 var luminance = require('color-luminance')
-var colors = require('./color-data')
-var domify = require('./render-colors').domify
+var colors = require('./lib/color-data')
+var domify = require('./lib/render-colors').domify
 
 //manipulate the colors with some pipeline of effects
 function gradient(colors, low, high) {

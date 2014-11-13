@@ -2,7 +2,7 @@
 // B1. a standard imperative approach
 // ------------------------------------------
 
-var text = require('./lipsum')
+var text = require('./lib/lipsum')
 
 //get sorted frequencies of words in text
 var allWords = words(text)
