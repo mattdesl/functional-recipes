@@ -21,7 +21,7 @@ npm run colors-3      ## higher order functions
 npm run colors-4      ## ES6 arrow function
 
 npm run frequency-1   ## the imperative approach
-npm run frequency-2   ## functional; reduce, plucker, Object.keys
+npm run frequency-2   ## functional approach: reduce, plucker, Object.keys
 ```
 
 ## License
