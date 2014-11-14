@@ -15,12 +15,12 @@ npm install
 Then run any of the demos like so: 
 
 ```sh
-npm run colors-1
-npm run colors-2
+npm run colors-1      ## the imperative approach
+npm run colors-2      ## functional approches
 npm run colors-3
 npm run colors-4
-npm run frequency-1
-npm run frequency-2
+npm run frequency-1   ## the imperative approach
+npm run frequency-2   ## functional approach
 ```
 
 ## License
