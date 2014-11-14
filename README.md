@@ -1,6 +1,6 @@
 # functional-recipes
 
-Some lessons for functional programming in JS.
+Some lessons for functional programming in JS. Part of a "Beer o' Clock" chat at Jam3.
 
 Clone then install:
 
