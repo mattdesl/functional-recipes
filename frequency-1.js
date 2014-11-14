@@ -27,18 +27,18 @@ console.log("Most repeated long words:", top)
 
 function frequencies(words) {
     //compute frequencies
-    var frequencies = {} 
+    var freqMap = {} 
     for (var i=0; i<words.length; i++) {
         var word = words[i]
-        frequencies[word] = (frequencies[word]||0) + 1
+        freqMap[word] = (freqMap[word]||0) + 1
     }
 
     //turn into objects, sorted by frequency
     var result = []
-    for (var k in frequencies) {
+    for (var k in freqMap) {
         result.push({ 
             word: k,
-            frequency: frequencies[k]
+            frequency: freqMap[k]
         })
     }
 
@@ -48,9 +48,9 @@ function frequencies(words) {
 }
 
 function words(text) {
-    var words = text.split(' ')
-    for (var i=0; i<words.length; i++) {
-        words[i] = words[i].trim().toLowerCase()
+    var wordList = text.split(' ')
+    for (var i=0; i<wordList.length; i++) {
+        wordList[i] = wordList[i].trim().toLowerCase()
     }
-    return words
+    return wordList
 }

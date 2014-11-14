@@ -44,10 +44,5 @@ var midtones = luma(function(Y) {
 })
 var bright = require('negate')(dark)
 
-//using the generated function
-var testColor = [255, 150, 128]
-if (bright(testColor))
-    console.log("yep, it's bright.")
-
 var result = gradient(colors, bright)
 require('./lib/render-colors')(result)
