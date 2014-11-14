@@ -49,5 +49,5 @@ var testColor = [255, 150, 128]
 if (bright(testColor))
     console.log("yep, it's bright.")
 
-var result = gradient(colors, dark)
+var result = gradient(colors, bright)
 require('./lib/render-colors')(result)
